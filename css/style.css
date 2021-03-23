@@ -1,0 +1,257 @@
+/*=====================
+common css
+=====================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.common-btn {
+    border: 2px solid #525FFB;
+    border-radius: 50px;
+    color: #525FFB;
+    font-size: 20px;
+    height: 55px;
+    padding: 0px 40px;
+    font-weight: 500;
+    
+}
+.common-btn,.active-common-btn,.disabled-btn:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.common-btn:hover {
+    background: #525FFB;
+    color: white;
+    border: 2px solid #525FFB;
+}
+
+.active-common-btn {
+    border: 2px solid #525FFB;
+    border-radius: 50px;
+    background: #525FFB;
+    color: white;
+    font-size: 20px;
+    height: 55px;
+    padding: 0px 40px;
+    font-weight: 500;
+}
+
+.active-common-btn:hover {
+    color: white;
+}
+
+.disabled-btn {
+    border: 2px solid #EBEBEB;
+    border-radius: 50px;
+    color: #1E1C24;
+    font-size: 20px;
+    height: 55px;
+    padding: 0px 40px;
+    font-weight: 200;
+}
+
+.common-title {
+
+    font-size: 50px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*=====================
+body css
+=====================*/
+body {
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+
+}
+
+/*=====================
+hearder css
+=====================*/
+.logo h4 {
+    color: #525FFB;
+    font-size: 47px;
+    font-weight: 800;
+}
+
+
+/*=====================
+banner css
+=====================*/
+#banner-part .banner-title {
+    color: #1E1C24;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.common-desc {
+    font-size: 20px;
+    color: #B1AAAA;
+    font-family: muli;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#banner-part .disabled-btn {
+    margin-right: 20px;
+}
+
+
+/*=====================
+service css
+=====================*/
+
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    background: #525FFB;
+    border: none;
+}
+
+.card2 {
+    background: #E9F0FF;
+
+}
+
+.card2 .card-title,
+.card2 .card-text {
+    color: black;
+}
+
+.card3 {
+    background: #FFE7AA;
+
+}
+
+.card3 .card-title,
+.card3 .card-text {
+    color: black;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body {
+    color: white;
+    text-align: center;
+
+}
+
+.card-title {
+    margin: 0px 50px 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card-desc {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card:hover {
+    background: #525FFB;
+
+}
+
+.card:hover .card-title {
+    color: white;
+}
+
+.card:hover .card-text {
+    color: white;
+}
+
+
+
+/*=====================
+task management css
+=====================*/
+.download-icon {
+    cursor: pointer;
+}
+.management-padding{
+    padding: 90px 0px;
+}
+/*=====================
+trust us css
+=====================*/
+.trust-desc{
+    font-size: 70px;
+    font-weight: 800;
+    color:#525FFB ;
+}
+.left-img{
+    position: relative;
+    height: 400px;
+}
+.left-img img{
+    position: absolute;
+}
+.left-img img:first-child{
+    top: 0;
+    left: 0;
+}
+.left-img img:nth-child(2){
+    top: 50%;
+    right: 0;
+    
+}
+.left-img img:nth-child(3){
+    bottom: 0;
+   
+}
+
+.right-img{
+    position: relative;
+    height: 400px;
+}
+.right-img img{ 
+    position: absolute;
+}
+.right-img img:first-child{ 
+    top: 0;
+    right: 0;
+}
+.right-img img:nth-child(2){ 
+    top: 50%;
+    left: 0;
+}
+.right-img img:nth-child(3){ 
+    bottom: 0;
+    right: 0;
+}
+
+/*=====================
+responsive css
+=====================*/
+
+@media screen and (max-width:992px){
+    .trust-desc{
+        font-size: 45px;
+    }
+}
+
+/*=====================
+footer css
+=====================*/
+#footer-part{
+    background: white;
+    border: 1px solid #E6E6E6;
+}
